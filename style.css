@@ -6,6 +6,13 @@
     display: flex;
     gap: 20px;
 }
+.featureditems{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    left: 500px;
+}
 .about-store{
     top: 1000px;
     left: 50%;
@@ -13,7 +20,10 @@
 }
 .items{
     display: flex;
-    margin: 5%;
+    margin: 2%;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .items article{
     display: flex;
@@ -22,7 +32,7 @@
     border: 5px solid #ccc;
 }
 .items img{
-    max-width: 250px;
+    width: 250px;
     height: 250px;
 }
 .items h1{
@@ -34,5 +44,23 @@
 
 .items p{
     font-size: 15px;
-    
+}
+.items button{
+    padding: 15px;
+    display: inline-block;
+    background-color: black;
+    color: azure;
+}
+.featureditems{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.items article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 5px solid grey;
+    margin: 0;
 }
